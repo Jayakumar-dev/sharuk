@@ -3,4 +3,4 @@ tkinter
 os
 pandas
 numpy
-xlsxwriter 
+xlsxwriter
