@@ -1,0 +1,6 @@
+streamlit
+tkinter
+os
+pandas
+numpy
+xlsxwriter 
