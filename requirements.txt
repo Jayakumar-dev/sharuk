@@ -1,5 +1,5 @@
 streamlit
-tkinter
+tkinter 8.6
 os
 pandas
 numpy
