@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import os
 import xlsxwriter 
+if os.environ.get('DISPLAY','') == '':
+    print('no display found. Using :0.0')
+    os.environ.__setitem__('DISPLAY', ':0.0')
 
 def run_all(test1,test2,master_path,val_CLIENT_NAME,val_FREQUENCY,val_WEEKLY):
     output_info_string = ""
