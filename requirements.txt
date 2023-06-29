@@ -1,5 +1,4 @@
 streamlit
-python3-tk
 os
 pandas
 numpy
