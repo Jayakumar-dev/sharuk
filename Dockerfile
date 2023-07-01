@@ -5,7 +5,7 @@ FROM python:3.9
 WORKDIR /sharuk
 
 # Install updates
-RUN apt-get update && apt-get install -y tk
+RUN apt-get update && apt-get install
 
 RUN pip install --upgrade pip
 # Clone the repository
